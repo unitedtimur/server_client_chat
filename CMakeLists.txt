@@ -25,9 +25,9 @@ set(CLIENT_SOURCES
 #*****************************************************************
 
 add_executable(${PROJECT_NAME}_SERVER)
-add_executable(${PROJECT_NAME}_Client)
+add_executable(${PROJECT_NAME}_CLIENT)
 
 #*****************************************************************
 
 target_sources(${PROJECT_NAME}_SERVER PRIVATE ${SERVER_SOURCES})
-target_sources(${PROJECT_NAME}_Client PRIVATE ${CLIENT_SOURCES})
+target_sources(${PROJECT_NAME}_CLIENT PRIVATE ${CLIENT_SOURCES})
